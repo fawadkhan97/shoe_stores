@@ -34,20 +34,6 @@ export const Nav = ({ ProductsInCart, CartQuantity }) => {
     textDecoration: "none",
   };
 
-  /* const CartQuantity = () => {
-    if (ProductsInCart.length === 1) {
-      console.log("checl ", ProductsInCart.Quantity);
-      return ProductsInCart[0].Quantity;
-    } else if (ProductsInCart.length > 1) {
-      ProductsInCart?.reduce((a, b) => {
-        console.log("total ", a + b.Quantity);
-        return a + b.Quantity;
-      }, 0);
-    }
-  };*/
-
-  console.log("is array ", Array.isArray(ProductsInCart));
-
   return (
     <div>
       <nav style={navstyle}>
@@ -74,7 +60,6 @@ export const Nav = ({ ProductsInCart, CartQuantity }) => {
               Cart
               <IconButton aria-label="cart">
                 <StyledBadge badgeContent={CartQuantity} color="Secondary">
-                  {console.log("nac quantity ", CartQuantity)}
                   <ShoppingCartIcon color="secondary" fontSize="large" />
                 </StyledBadge>
               </IconButton>

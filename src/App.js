@@ -57,9 +57,6 @@ function App() {
     return setAddToCart(newarr);
   };
 
-  console.log("qantity oof ", CartQuantity);
-  console.table(Array.isArray(AddToCart), " ", AddToCart, AddToCart.id);
-
   return (
     <>
       <Router>
