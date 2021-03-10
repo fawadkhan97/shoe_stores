@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shoe-container {
+  display: flex;
+  padding: 0 30px;
+}
+
+.landingpage-div {
+  align-self: center;
+  margin: 0 auto;
+}
+
+.big-heading {
+  font-size: 40px;
+}
+.heading-color {
+  color: rebeccapurple;
+}
+.landingpage-p {
+  color: rgb(139, 131, 131);
+  font-size: 25px;
+}
+
+.margin-botom-small {
+  margin-bottom: 25px;
+}
+
+.products-h1 {
+  color: rebeccapurple;
+  font-size: 40px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.products-container {
+  width: 98%;
+  margin: 0 auto;
+}
